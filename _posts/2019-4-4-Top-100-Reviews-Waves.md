@@ -131,3 +131,5 @@ The language seems to be the only piece of the puzzle missing for real dApps to 
 Overall, Waves is a strong cryptocurrency with developers and a team who know what they're talking about. The small security problems don't overshadow their larger goals. The smart contract language, while basic, will be more secure and less error-prone than something like solidity. The DEX is a great way to increase adoption and miner fees. It's implemented well and not centralized (everything is on-chain).
 
 Waves is an interesting cryptocurrency, coded from scratch, and built on solid foundations. They make generally reasonable technical choices and focus on useful tech.
+
+Disclaimer: I do not own any Waves. As of the time of writing, I own BTC, ETH, LTC, and PHR. I own under $500 of BTC/LTC/ETH and I get paid 1245 PHR per week with current holdings of around 60,000 PHR.
