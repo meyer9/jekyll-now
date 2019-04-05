@@ -23,7 +23,6 @@ github_username: meyer9
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-theme: jekyll-athena
 gems:
   - jekyll-paginate
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
