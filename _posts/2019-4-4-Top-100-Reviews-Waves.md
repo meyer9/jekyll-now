@@ -9,11 +9,11 @@ You can subscribe to my newsletter [here](https://buttondown.email/meyer9) where
 
 I decided to start with Waves because I haven't used the platform before, I only barely know what it's used for, and I don't know the tech behind it at all. I'll review the tech, security and trust implications, the coding standards, etc. This post is meant as a comprehensive technical review of the Waves platform.
 
-![Waves Homepage](!https://raw.githubusercontent.com/meyer9/jekyll-now/master/images/waves-design.png)
+![Waves Homepage](/images/waves-design.png)
 
 At first glance, Waves' website is flashy and seems like something out of a design-focused product. The site seems stylistically glitchy and definitely not the best for conveying information. The two big products I see as I scroll down the homepage are: Vostok, a universal blockchain solution... designed for large enterprises, and Waves, the open-source public blockchain.
 
-![Waves Features](!https://raw.githubusercontent.com/meyer9/jekyll-now/master/images/waves-features.png)
+![Waves Features](/images/waves-features.png)
 
 Their site focuses mainly on Web 3.0, which is a crypto buzzword meaning their blockchain runs dApps. Waves is proof-of-stake meaning that miners bet their coins on the next block instead of betting mining power. The types of proof-of-stake vary wildly between different platforms, so I'll definitely be looking into this first.
 
