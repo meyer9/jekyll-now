@@ -16,5 +16,23 @@ layout: default
   {% endfor %}
 </div>
 
+<hr />
+
+<div class='newsletter'>
+  <p>You can sign up for my newsletter below where I'll post exclusive content and keep you updated on new coin reviews.</p>
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/meyer9"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/meyer9', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <label for="bd-email">Enter your email:</label>
+    <input type="email" name="email" id="bd-email">
+    <input type="hidden" value="1" name="embed"/>
+    <input type="submit" value="Subscribe" />
+  </form>
+</div>
+
 {% include mathjax.html %}
 {% include analytics.html %}

@@ -9,13 +9,16 @@ You can subscribe to my newsletter [here](https://buttondown.email/meyer9) where
 
 I decided to start with Waves because I haven't used the platform before, I only barely know what it's used for, and I don't know the tech behind it at all. I'll review the tech, security and trust implications, the coding standards, etc. This post is meant as a comprehensive technical review of the Waves platform.
 
-![Waves Homepage](/images/waves-design.png)
+![Waves Review](/images/waves-header.png)
 
 At first glance, Waves' website is flashy and seems like something out of a design-focused product. The site seems stylistically glitchy and definitely not the best for conveying information. The two big products I see as I scroll down the homepage are: Vostok, a universal blockchain solution... designed for large enterprises, and Waves, the open-source public blockchain.
 
-![Waves Features](/images/waves-features.png)
+![Waves Homepage](/images/waves-design.png)
 
 Their site focuses mainly on Web 3.0, which is a crypto buzzword meaning their blockchain runs dApps. Waves is proof-of-stake meaning that miners bet their coins on the next block instead of betting mining power. The types of proof-of-stake vary wildly between different platforms, so I'll definitely be looking into this first.
+
+![Waves Features](/images/waves-features.png)
+
 
 # Waves Proof-of-Stake (LPoS)
 
@@ -67,7 +70,7 @@ Their system even strongly encourages users to do this:
 
 Small stake holders can't stake blocks. Only large pools can. This not only leads to a severe security decrease, but also strong centralization as bigger pools are more trusted and grow faster than smaller pools.
 
-This is seen very clearly in their block explorer where the top 6 miners control 57% (as of writing) of the staking power.
+This is seen very clearly in their [block explorer](https://dev.pywaves.org/generators-monthly/) where the top 6 miners control 57% (as of writing) of the staking power.
 
 # Waves Source Code
 
@@ -77,7 +80,7 @@ Waves source code is clean and uses good practices. The code is well-commented a
 
 Waves is written in a programming language called Scala which is a functional language built on top of the JVM (Java Virtual Machine). This lets them deploy versions of Waves on many platforms with very similar code. The JVM is highly optimized, but not great for low-level operations like cryptography.
 
-Internally, Waves uses the [Scrypto](https://github.com/input-output-hk/scrypto) library for Ed25519 curve. Waves uses the Blake2b256 hash function for fast hashing and Keccak(Blake2b256(m)) for secure hashing. Ed25519 is a strong choice due to its speed, security, and provable lack of backdoors. The parameters are carefully chosen to make inserting a backdoor tricky.
+Internally, Waves uses the [Scrypto](https://github.com/input-output-hk/scrypto) library for Ed25519 curve. Waves uses the Blake2b256 hash function for fast hashing and `Keccak(Blake2b256(m))` for secure hashing. Ed25519 is a strong choice due to its speed, security, and provable lack of backdoors. The parameters are carefully chosen to make inserting a backdoor tricky.
 
 The code uses similar structures to Bitcoin.
 
