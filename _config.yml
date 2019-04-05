@@ -37,4 +37,4 @@ exclude:
   - CNAME
   - vendor
 
-theme: jekyll-theme-minimal
+remote_theme: "broccolini/athena"
