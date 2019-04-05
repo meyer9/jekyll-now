@@ -116,6 +116,16 @@ They wrote their own smart contract language called "RIDE". RIDE is strongly-typ
 
 The language seems to be the only piece of the puzzle missing for real dApps to exist on Waves. Many complicated dApps will not be able to be built on Waves due to the restrictions by the smart contract language. The language seems focused on simplicity and correctness, but is insufficient for most "Web 3" applications as they advertise.
 
+| Pros | Cons |
+|-------|--------|
+| Smart Contracts | Lack of Turing-completeness |
+| On-chain DEX | Proof-of-Stake Leasing system |
+| Simple Light Nodes | Incentivizes miner pools (centralization) |
+| Asset Management | |
+| Written in Scala | |
+| Well Documented and Tested | |
+| Simple, Tested Cryptography | |
+
 # Conclusion
 
 Overall, Waves is a strong cryptocurrency with developers and a team who know what they're talking about. The small security problems don't overshadow their larger goals. The smart contract language, while basic, will be more secure and less error-prone than something like solidity. The DEX is a great way to increase adoption and miner fees. It's implemented well and not centralized (everything is on-chain).
